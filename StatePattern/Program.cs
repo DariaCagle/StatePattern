@@ -23,9 +23,9 @@ namespace StatePattern
     {
         public ICarState State { get; set; }
 
-        public Car(ICarState ws)
+        public Car(ICarState cs)
         {
-            State = ws;
+            State = cs;
         }
 
         public void Throttle()
